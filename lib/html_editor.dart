@@ -92,6 +92,9 @@ class HtmlEditorState extends State<HtmlEditor> {
 
   @override
   Widget build(BuildContext context) {
+    print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
+    print('in html_editor');
+    print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
     return Container(
       height: widget.height,
       decoration: widget.decoration ??
